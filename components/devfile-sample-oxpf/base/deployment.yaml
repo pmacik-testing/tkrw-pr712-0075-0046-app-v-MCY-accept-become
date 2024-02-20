@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-oxpf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0046-tenant/tkrw-pr712-0075-0046-app/devfile-sample-oxpf@sha256:17e466b74a2ee7fb3d50427b233f09ebac53d22080fea4bf901bb6733aa0ddc1
         name: my-nodejs
         ports:
         - containerPort: 3001
